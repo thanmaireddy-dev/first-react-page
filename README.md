@@ -1,19 +1,94 @@
-# Getting Started
-Install the dependencies and run the project
+# ⚛️ React Facts – Beginner Project
+
+A simple static React application that displays interesting facts about React.
+This project was built as part of my initial learning phase of React, focusing on understanding core concepts like JSX, components, and project structure.
+
+---
+
+## 🚀 Features
+
+* Built using **React + Vite**
+* Uses **functional components**
+* Clean component structure (`Navbar`, `Main`)
+* JSX-based UI rendering
+* Simple and readable layout
+
+---
+
+## 🧠 What I Learned
+
+While building this project, I focused on:
+
+* Understanding how **JSX works under the hood**
+* Creating and using **React components**
+* Structuring a React project properly
+* Importing and using components inside `App.jsx`
+* Basic styling and layout handling
+
+---
+
+## 📁 Project Structure
+
 ```
+├── components/
+│   ├── Navbar.jsx
+│   ├── Main.jsx
+├── images/
+├── App.jsx
+├── index.jsx
+├── index.css
+├── index.html
+├── package.json
+├── vite.config.js
+```
+
+---
+
+## 🛠️ Tech Stack
+
+* React
+* Vite
+* JavaScript (ES6+)
+* HTML & CSS
+
+---
+
+## ▶️ Getting Started
+
+To run this project locally:
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/react-facts.git
+
+# Navigate into the project
+cd react-facts
+
+# Install dependencies
 npm install
-npm start
+
+# Run the development server
+npm run dev
 ```
 
-Head over to https://vitejs.dev/ to learn more about configuring vite
-## About Scrimba
+---
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Fullstack Developer Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
+## 🎯 Future Improvements
 
-- [Our courses](https://scrimba.com/courses)
-- [The Frontend Career Path](https://scrimba.com/fullstack-path-c0fullstack)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+* Add interactivity using React state
+* Improve UI design and responsiveness
+* Add more reusable components
+* Fetch dynamic data instead of static content
 
-Happy Coding!
+---
+
+## 📌 Note
+
+This is a beginner-level project created to strengthen my understanding of React fundamentals. More advanced features and optimizations will be added as I progress.
+
+---
+
+## 🙌 Acknowledgment
+
+Built as part of my React learning journey.
+
